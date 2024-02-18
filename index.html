@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+@font-face {
+  font-family: 'Inter-regular';
+  src: url('./assets/fonts/static/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter-bold';
+  src: url('./assets/fonts/static/Inter-Bold.ttf') format('truetype');
+}
+
+
+    *{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    body{
+      background: #141414;
+      font-family: 'Inter-regular', sans-serif;
+      color: white;
+    }
+
+    section{
+      background: #1F1F1F;
+      color: white;
+      max-width: 384px;
+      margin: 0 auto;
+      padding: 2rem;
+      border-radius: 10px;
+      margin-top: 2rem;
+    }
+    
+    .profile__image{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+
+    .profile__image img{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+
+    .profile__name{
+      text-align: center;
+      margin-bottom: 4px;
+      font-family: 'Inter-bold', sans-serif;
+    }
+
+    .profile__location{
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #C4F82A;
+      font-weight: bold;
+    }
+
+    .profile__bio{
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .profile__social{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+    }
+
+    .profile__social a{
+      text-align: center;
+      padding: 1rem;
+      border-radius: 5px;
+      background: #333333;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 1rem;
+    }
+
+    .profile__social a:hover{
+      background: #C4F82A;
+      color: #141414;
+    }
+
+    
+  </style>
+</head>
+<body>
+
+<section class="profile">
+  <div class="profile__image">
+    <img src="./assets/images/avatar-jessica.jpeg" alt="avatar-jessica" />
+</div>
+  <h2 class="profile__name">Jessica Randall</h2>
+  <p class="profile__location">London, United Kingdom</p>
+  <p class="profile__bio">"Front-end developer and avid reader."</p>
+
+  <div class="profile__social">
+   
+    <a href="https://www.frontendmentor.io/profile/YuriGuernsey" target="_blank">
+     <p>GitHub</p>
+    </a>
+    <a href="https://www.frontendmentor.io/profile/YuriGuernsey" target="_blank">
+      <p>Frontend Mentor</p>
+    </a>
+
+    <a href="https://www.frontendmentor.io/profile/YuriGuernsey" target="_blank">
+      <p>LinkedIn</p>
+    </a>
+
+    <a href="https://www.frontendmentor.io/profile/YuriGuernsey" target="_blank">
+      <p>Twitter</p>
+    </a>
+
+    <a href="https://www.frontendmentor.io/profile/jessicarandall" target="_blank">
+      <p>Instagram</p>
+    </a>
+
+    
+    
+   </div>
+
+</section>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://yuriguernsey.com/">Yuri Alves</a>.
+  </div>
+</body>
+</html>
